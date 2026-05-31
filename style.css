@@ -1,6 +1,5 @@
 body { font-family: sans-serif; margin: 0; }
 
-/* Header Flexbox */
 .flex-header {
     display: flex;
     justify-content: center;
@@ -9,7 +8,6 @@ body { font-family: sans-serif; margin: 0; }
     padding: 20px;
 }
 
-/* Container Principal - Layout flexível */
 .flex-perfil {
     display: flex;
     flex-direction: column;
@@ -37,7 +35,7 @@ body { font-family: sans-serif; margin: 0; }
 /*Habilidades*/
 .flex-habilidade {
     display: flex;
-    flex-wrap: wrap; /* Permite que os itens pulem de linha se necessário */
+    flex-wrap: wrap; 
     gap: 15px;
     list-style: none;
     padding: 0;
@@ -56,7 +54,7 @@ body { font-family: sans-serif; margin: 0; }
 
 .flex-projetos {
     display: flex;
-    flex-wrap: wrap; /* O segredo para o layout ser responsivo */
+    flex-wrap: wrap; 
     gap: 20px;
     justify-content: center;
 }
@@ -90,14 +88,14 @@ body { font-family: sans-serif; margin: 0; }
 /*Semestres*/
 .flex-semestres {
     display: flex;
-    flex-wrap: wrap; /* Essencial para a responsividade */
+    flex-wrap: wrap; 
     gap: 20px;
     justify-content: center;
     padding: 20px;
 }
 
 .semestre-itens{
-    flex: 1 1 250px; /* Flexbox rigoroso: adapta ao tamanho da tela */
+    flex: 1 1 250px;
     background: #f4f4f9;
     padding: 20px;
     border-radius: 10px;
