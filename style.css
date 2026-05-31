@@ -1,118 +1,127 @@
-body { font-family: sans-serif; margin: 0; }
+        body { 
+            font-family: sans-serif; margin: 0; 
+        }
 
-.flex-header {
-    display: flex;
-    justify-content: center;
-    background: #2c3e50;
-    color: white;
-    padding: 20px;
-}
 
-.flex-perfil {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
+        .header {
+            display: flex;
+            justify-content: center;
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
 
-.perfil {
-    display: flex;
-    align-items: center;
-    gap: 20px; 
-    max-width: 800px;
-    margin-bottom: 40px;
-    font-size: 20px;
-    text-align: justify;
-}
 
-.foto-perfil {
-    width: 250px;
-    border-radius: 10%;
-    padding-top: 60px;
-    box-shadow: 0 10px 20px grey; 
-}
+        .perfil {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+        }
 
-/*Habilidades*/
-.flex-habilidade {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 15px;
-    list-style: none;
-    padding: 0;
-}
+        .perfil_sobre {
+            display: flex;
+            align-items: center;
+            gap: 20px; 
+            max-width: 800px;
+            margin-bottom: 40px;
+            font-size: 20px;
+            text-align: justify;
+        }
 
-.flex-habilidade {
-    background: #f0f0f0;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-/*exemplos/trabalhos*/
-.secao-projetos {
-    padding: 40px 20px;
-    text-align: center;
-}
+        .foto_perfil {
+            width: 250px;
+            border-radius: 10%;
+            padding-top: 60px;
+            box-shadow: 0 10px 20px grey; 
+        }
 
-.flex-projetos {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
-    justify-content: center;
-}
+        /*Habilidades*/
+        .habilidades{
+            text-align: center;
+        }
+        .conhecimento {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+             background: #f0f0f0;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
 
-.projetos {
-   background: #ffffff;
-    border: 1px solid #eee; 
-    padding: 20px;
-    border-radius: 8px;
-    flex: 1 1 250px; 
-    max-width: 300px;
-    transition: transform 0.3s ease; 
-    box-shadow: 0 5px 15px lightgrey;
-}
 
-.projetos:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 10px 20px lightgrey; 
-}
+        /*Projetosd*/
+        .meus_projetos {
+            padding: 40px 20px;
+            text-align: center;
+        }
 
-/*footer*/
-.flex-footer {
-    display: flex;
-    justify-content: space-between; 
-    background: #2c3e50;
-    color: white;
-    padding: 20px;
-    margin-top: 40px;
-}
+        .projetos_dados {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
 
-/*Semestres*/
-.flex-semestres {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
-}
+        .projetos {
+           background: #ffffff;
+            border: 1px solid #eee; 
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 250px; 
+            max-width: 300px;
+            transition: transform 0.3s; 
+            box-shadow: 0 5px 15px lightgrey;
+        }
 
-.semestre-itens{
-    flex: 1 1 250px;
-    background: #f4f4f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+        .projetos:hover {
+            transform: translateY(-5px); 
+            box-shadow: 0 10px 20px lightgrey; 
+        }
 
-.semestre-itens h3 {
-    color: #2c3e50;
-    border-bottom: 2px solid #2c3e50;
-    padding-bottom: 10px;
-}
+       
 
-.semestre-itens ul {
-    list-style: none;
-    padding: 0;
-}
+        /*Semestres*/
+        .semestres{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
 
-.matriz-curricular h2{
-    text-align: center;
-}
+        .semestre_itens{
+            flex: 1 1 250px;
+            background: #f4f4f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .semestre_itens h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+
+        .semestre_itens ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .matriz_curricular h2{
+            text-align: center;
+        } 
+
+
+        /*footer*/
+        .rodape {
+            display: flex;
+            justify-content: space-between; 
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
